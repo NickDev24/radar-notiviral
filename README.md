@@ -1,6 +1,6 @@
 # Radar Notiviral — API de noticias de Argentina 🇦🇷
 
-**Radar Notiviral (APIFENIX) es una API de noticias argentinas en tiempo real: radar de noticias de las 23 provincias, con señales periodísticas (primicias, notas en expansión, huérfanas y coberture gaps) para periodistas, redacciones y desarrolladores.**
+**Radar Notiviral (APIFENIX) es una API de noticias argentinas en tiempo real: radar de noticias de las 23 provincias, con señales periodísticas (primicias, notas en expansión, huérfanas y coverage gaps (notas sin cubrir)) para periodistas, redacciones y desarrolladores.**
 
 ## 🪽 APIFENIX — El radar de noticias de Argentina 🇦🇷
 
