@@ -6,7 +6,7 @@
 
 > **La API que le dice a un periodista: esto se está expandiendo, esto lo publicó primero nadie, y esto no lo está cubriendo nadie.**
 
-[![API en vivo](https://img.shields.io/badge/API-apifenix.mp4-render.site-10b981?style=flat-square&logo=fastapi)](https://apifenix.mp4-render.site/api)
+[![API en vivo](https://img.shields.io/badge/API-radar-notiviral.online-10b981?style=flat-square&logo=fastapi)](https://radar-notiviral.online/api)
 [![Hecho en Argentina](https://img.shields.io/badge/hecho%20en-Argentina-%F0%9F%87%A6%F0%9F%87%B7-celeste?style=flat-square)](#)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-blue?style=flat-square)](LICENSE)
 
@@ -15,6 +15,7 @@ y videos tutoriales. El código de la plataforma es privado.
 
 - 📘 [Documentación de la API](docs/API.md)
 - 🎬 [Videos tutoriales](docs/TUTORIALES.md)
+- 📄 [Presentación en PDF](docs/Radar_Notiviral_y_APIFENIX.pdf)
 - ⚖️ [Términos legales de PRENSA Notiviral](docs/legal/prensa-terminos-v2.md)
 
 ---
@@ -39,16 +40,16 @@ Nada de esto existe en APIs genéricas. Es 100% construido end-to-end por un per
 
 ```bash
 # 1. Registrate y obtené tu key
-curl -X POST https://apifenix.mp4-render.site/registro   # o /auth/google
+curl -X POST https://radar-notiviral.online/registro   # o /auth/google
 
 # 2. Explorá el radar (con header X-API-Key)
-curl -H "X-API-Key: TU_KEY" "https://apifenix.mp4-render.site/api/v1/items?provincia=AR-A&page_size=5"
+curl -H "X-API-Key: TU_KEY" "https://radar-notiviral.online/api/v1/items?provincia=AR-A&page_size=5"
 ```
 
 **Sin key, mirá el radar igual:**
-- 🗺️ [Mapa de calor en vivo](https://apifenix.mp4-render.site/mapa)
-- 🗞️ [Mural de noticias](https://apifenix.mp4-render.site/mural)
-- 📰 [Catálogo de fuentes](https://apifenix.mp4-render.site/catalogo)
+- 🗺️ [Mapa de calor en vivo](https://radar-notiviral.online/mapa)
+- 🗞️ [Mural de noticias](https://radar-notiviral.online/mural)
+- 📰 [Catálogo de fuentes](https://radar-notiviral.online/catalogo)
 
 ---
 
@@ -67,7 +68,7 @@ GET /api/v1/huerfanas     Notas con 1 sola fuente (posible exclusiva)
 GET /api/v1/sources       Catálogo de fuentes (editorial + YouTube)
 ```
 
-Documentación interactiva: [api/docs](https://apifenix.mp4-render.site/api/docs) · Esquema: [openapi.json](https://apifenix.mp4-render.site/api/openapi.json) · Referencia completa: [docs/API.md](docs/API.md)
+Documentación interactiva: [api/docs](https://radar-notiviral.online/api/docs) · Esquema: [openapi.json](https://radar-notiviral.online/api/openapi.json) · Referencia completa: [docs/API.md](docs/API.md)
 
 ---
 
@@ -135,15 +136,19 @@ for g in radar.gaps(provincia="AR-Y"):
 
 ---
 
-## 🎬 Video tutorial
+## 🎬 Presentación en video (se reproduce en el navegador, sin descarga)
 
-[**Ver el tutorial de la API (16:9, MP4)**](videos/api_tutorial_16x9.mp4) — qué es el radar, cómo leer las señales y cómo empezar con la API gratis. Más detalle en [docs/TUTORIALES.md](docs/TUTORIALES.md).
+**[▶ Ver el demo de Radar Notiviral y APIFENIX (6:58, narrado por IA)](https://radar-notiviral.online/static/videos/demo-notebooklm.mp4)** — qué es el radar, cómo leer las señales y cómo empezar con la API gratis. Se abre en la misma pestaña con el reproductor nativo del navegador.
+
+📄 **La presentación completa en PDF**: [Radar Notiviral y APIFENIX](docs/Radar_Notiviral_y_APIFENIX.pdf) (GitHub abre el lector de PDF en la misma pestaña).
+
+Además: [tutorial técnico de la API paso a paso](https://github.com/NickDev24/radar-notiviral/blob/main/videos/api_tutorial_16x9.mp4) (28 MB, en `videos/`). Más detalle en [docs/TUTORIALES.md](docs/TUTORIALES.md).
 
 ---
 
 ## 🇦🇷 Identidad
 
-APIFENIX es **API ARGENTINA**: fuentes reales de las 23 provincias, español rioplatense, y un producto pensado para el periodismo del país. Si tenés un medio, un canal o una radio: [sumalo al radar](https://apifenix.mp4-render.site/registro).
+APIFENIX es **API ARGENTINA**: fuentes reales de las 23 provincias, español rioplatense, y un producto pensado para el periodismo del país. Si tenés un medio, un canal o una radio: [sumalo al radar](https://radar-notiviral.online/registro).
 
 ## 📄 Licencia
 

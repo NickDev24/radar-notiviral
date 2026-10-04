@@ -3,9 +3,9 @@
 Referencia pública de la API de APIFENIX: qué señales resuelve, cómo te
 autenticás y qué endpoints existen.
 
-- **API pública**: https://apifenix.mp4-render.site
-- **Docs interactivas (Swagger)**: https://apifenix.mp4-render.site/api/docs
-- **OpenAPI**: https://apifenix.mp4-render.site/api/openapi.json
+- **API pública**: https://radar-notiviral.online
+- **Docs interactivas (Swagger)**: https://radar-notiviral.online/api/docs
+- **OpenAPI**: https://radar-notiviral.online/api/openapi.json
 - **Radar público**: `/mapa` · `/mural` · `/catalogo`
 
 ---
@@ -88,13 +88,13 @@ título normalizado.
 
 ```bash
 # Notas de Salta en expansión, con 3+ fuentes
-curl -H "X-API-Key: $KEY" "https://apifenix.mp4-render.site/api/v1/clusters?provincia=AR-A&min_fuentes=3"
+curl -H "X-API-Key: $KEY" "https://radar-notiviral.online/api/v1/clusters?provincia=AR-A&min_fuentes=3"
 
 # Qué se publicó en las últimas 6 horas y nadie replicó (exclusivas posibles)
-curl -H "X-API-Key: $KEY" "https://apifenix.mp4-render.site/api/v1/huerfanas?ventana=6h"
+curl -H "X-API-Key: $KEY" "https://radar-notiviral.online/api/v1/huerfanas?ventana=6h"
 
 # Reloj de la noticia: origen y demoras por medio
-curl -H "X-API-Key: $KEY" "https://apifenix.mp4-render.site/api/v1/reloj?search=inundaci"
+curl -H "X-API-Key: $KEY" "https://radar-notiviral.online/api/v1/reloj?search=inundaci"
 ```
 
 ---
