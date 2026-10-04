@@ -97,6 +97,9 @@ for g in radar.gaps(provincia="AR-Y"):
 
 - 🤖 **Agente de redacción IA** — conectá TU propia API key (OpenAI / OpenRouter / Groq / Gemini / Claude), cifrada en reposo, con tono, largo, formato y público ajustables; chat por nota con contexto del radar y tus apuntes.
 - 📝 **Mis Notas** — todo lo que redactás en el bloc queda listo para retomar o pasarle al agente.
+- 🖼️ **Mi material** — en cada nota cargás **tus propias imágenes y videos** (la foto de tapa, el video que te mandó la fuente) con pie editable y borrar. Se valida la firma del archivo, no lo que declara el navegador; el material se sirve solo a vos, con `Range` para correr la barra de progreso. Cuota por plan: 50/300/1000 MB.
+- 🎙️ **Nota con IA desde audio** — elegís una toma (o subís un audio) y **Groq Whisper** la transcribe para que el modelo redacte la nota con eso como fuente primaria, más el contexto del radar. Con **tu** API key (cifrada), el audio **no queda guardado** en el server y hay tope diario de pedidos.
+- ✂️ **Clips Generador** — una toma del Recorder, un video que subís de tu máquina o un video de "Mi material" se convierte en hasta **3 clips verticales 9:16** con ffmpeg local (escenas y ventanas de voz, título quemado, identidad del medio): sin IA de pago, cola de un render a la vez y TTL de 24 h. Cada pedido se puede renombrar, ver con preview y borrar.
 - 🧠 **Inteligencia IA** — sentimiento por entidad, framing, temas IPTC y clusters: el ML corre 100% en tu navegador (Transformers.js) con caché IndexedDB; el server solo sirve datos indexados.
 - 🎥 **FENIX Recorder** — grabá pantalla/pestaña/cámara o reacción con cámara en tu navegador (MediaRecorder + IndexedDB); al server solo le llega la ficha (duración, peso, hash). Desde cada nota de YouTube: botón **"Grabar esta nota"**.
 - 🎨 **Diseñador de placas** 1080×1350 con preview en vivo y descarga PNG.
