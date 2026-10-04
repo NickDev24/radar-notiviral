@@ -4,23 +4,21 @@ Todos los videos viven en [`videos/`](../videos/). Se descargan y reproducen
 directo desde GitHub (click derecho → *Guardar como*), o se abren en el
 navegador con el enlace de abajo.
 
-## FENIX — el radar en 3 minutos (16:9)
+## Tutorial de la API APIFENIX (16:9)
 
-📺 **[fenix_tutorial_16x9.mp4](https://github.com/NickDev24/radar-notiviral/raw/main/videos/fenix_tutorial_16x9.mp4)**
-([archivo en el repo](../videos/fenix_tutorial_16x9.mp4) · 36 MB · MP4 H.264)
+📺 **[api_tutorial_16x9.mp4](https://github.com/NickDev24/radar-notiviral/raw/main/videos/api_tutorial_16x9.mp4)**
+([archivo en el repo](../videos/api_tutorial_16x9.mp4) · MP4 H.264 + voz es-AR)
 
-Qué vas a ver:
+Grabado con **pantallas reales** de la plataforma y narración en off:
 
-1. **El problema** — el periodista no necesita más noticias, necesita señales:
-   qué se está expandiendo, quién publicó primero, qué no cubre nadie.
-2. **El feed del radar** — etiquetas de expansión, primicia, huérfana y gap
-   sobre notas reales de las 23 provincias.
-3. **Lector integrado** — video de YouTube embebido, texto, agente de IA con
-   tu propia API key y bloc de notas por nota.
-4. **La API** — `/api/v1/items`, `/clusters`, `/reloj`, `/gaps` con tu
-   `X-API-Key`, y los SDKs que vienen con la key.
-5. **PRENSA Notiviral** — publicar una nota firmada con consentimiento +
-   identidad documentada, y el botón *Grabar esta nota* del Recorder.
+1. **La landing** — qué es el radar y por qué no es un agregador más.
+2. **El panel = la API** — el feed con señales de expansión, primicia, huérfana y gap.
+3. **El mural** — la misma API leída como portada de diario.
+4. **Mapa de calor** — las 23 provincias en vivo, `GET /api/v1/mapa`.
+5. **Lector integrado** — video de YouTube en vivo embebido + bloc de notas + FENIX Recorder en el lateral.
+6. **Docs interactivas** — Swagger + OpenAPI de todos los endpoints.
+7. **curl en 60 segundos** — `X-API-Key` → JSON con datos reales de hoy.
+8. **SDK Python** — clusters, gaps y reloj en tres líneas.
 
 > El reproductor nativo de GitHub no reproduce MP4 inline: el enlace `raw`
 > dispara la descarga y ese archivo abre en cualquier player (VLC, QuickTime,
